@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Jocs_Olimpics (Olimpiada)>
+<!ELEMENT Olimpiada (Pais, Dates, Caracteristiques)>
+<!ELEMENT Pais (Ciutat)>
+<!ELEMENT Ciutat (#PCDATA)>
+<!ELEMENT Dates (Inici, Fi)>
+<!ELEMENT Inici (#PCDATA)>
+<!ELEMENT Fi (#PCDATA)>
+<!ELEMENT Caracteristiques (Inauguracio, Participants)>
+<!ELEMENT Inauguracio (#PCDATA)>
+<!ELEMENT Participants EMPTY>
+<!ATTLIST Olimpiada Any CDATA #REQUIRED>
+<!ATTLIST Pais Nom CDATA #REQUIRED>
+<!ATTLIST Caracteristiques Nom_oficial CDATA #IMPLIED>
+<!ATTLIST Participants Comites CDATA #REQUIRED>
+<!ATTLIST Participants Atletes CDATA #REQUIRED>
+
+
+
+
+

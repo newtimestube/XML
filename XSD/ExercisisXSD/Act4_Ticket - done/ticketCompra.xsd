@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ticket">    
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="data">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia"/>
+                            <xs:element name="mes"/>
+                            <xs:element name="any"/> 
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="client">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom"/>
+                            <xs:element name="id"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="productes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="producte" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="codi" type="xs:int"/>
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="quantitat" type="xs:int"/>
+                                        <xs:element name="preu" type="xs:double"/>
+                                        <xs:element name="descompte" type="xs:int"/>
+                                        <xs:element name="promocio" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

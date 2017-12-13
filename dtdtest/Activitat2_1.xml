@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informatica SYSTEM "ordinador.dtd">
+
+<!--
+Vocabulari: informatica, ordinador, titol, placa base, peces.
+Regles: Ha de començar amb informatica i acabar amb informatica. Hi pot haver mes de un ordinador pero no pot haver un ordinador a dins de un altre ordinador.
+Cada ordinador ha de tenir un placa base on estarien les peces damunt que poden ser com processador, targeta grafica, font de alimentacio, ram, etc.
+En acabar amb totes les peces s'acaba amb placa base.
+-->
+
+<informatica>
+	<ordinador color_de_capsa="Vermell"> <titol> 1r ordinador </titol>
+		<placa_base>
+			<peces>Processador Intel</peces>
+			<peces>Targeta Grafica Nvidia</peces>
+			<peces>Font de alimentacio Tacens</peces>
+			<peces>Ram 8GB</peces>
+		</placa_base>
+	</ordinador>
+	
+	<ordinador color_de_capsa="Groc"> <titol> 2n ordinador </titol>
+		<placa_base>
+			<peces>Processador AMD</peces>
+			<peces>Targeta Grafica AMD</peces>
+			<peces>Font de alimentacio NOX</peces>
+			<peces>Ram 16GB</peces>
+		</placa_base>
+	</ordinador>
+	
+	<ordinador color_de_capsa="Blau"> <titol> 3r ordinador </titol>
+		<placa_base>
+			<peces>Processador Intel</peces>
+			<peces>Targeta Grafica AMD</peces>
+			<peces>Font de alimentacio Tacens</peces>
+			<peces>Ram 4GB</peces>
+		</placa_base>
+	</ordinador>
+	
+	<ordinador color_de_capsa="Vermell"> <titol> 4t ordinador </titol>
+		<placa_base>
+			<peces>Processador Intel</peces>
+			<peces>Targeta Grafica Intel (Integrada)</peces>
+			<peces>Font de alimentacio Corsair</peces>
+			<peces>Ram 32GB</peces>
+		</placa_base>
+	</ordinador>
+</informatica>

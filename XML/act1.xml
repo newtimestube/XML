@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<missatges>
+	<titol>MISSATGE DE PER ASSUMPTE COS</titol>
+	<missatge id="325">
+		<de>CapMagatzem</de>
+		<per>Operari01</per>
+		<assumpte>Control d'estocs</assumpte>
+		<cos>Hola, Et necessito al magatzem per fer el control d'estocs</cos>
+	</missatge>
+
+	<missatge id="326">
+		<de>Operari01</de>
+		<per>CapMagatzem</per>
+		<assumpte>RE: Control d'estocs</assumpte>
+		<cos>Ara hi vaig</cos>
+	</missatge>
+
+	<missatge id="327">
+		<de>CapMagatzem</de>
+		<per>Operari01</per>
+		<assumpte>RE: RE: Control d'estocs</assumpte>
+		<cos>Gràcies</cos>
+	</missatge>
+</missatges>

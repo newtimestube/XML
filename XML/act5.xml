@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<immobiliaria>
+	<habitatges>
+
+		<pis id='1'>
+			<adreça>Tarronger 20, 07680, Manacor</adreça>
+			<tipus_habitatge>Pis</tipus_habitatge>
+			<contracte>Venda</contracte>
+			<preu>120.000€</preu>
+		</pis>
+
+		<pis id='2'>
+			<adreça>Tramuntana 2, 07680, Porto Cristo</adreça>
+			<tipus_habitatge>Pis</tipus_habitatge>
+			<contracte>Venda</contracte>
+			<preu>80.000€</preu>
+		</pis>
+
+		<pis id='3'>
+			<adreça>Aigo 15A, 07200, Felanitx</adreça>
+			<tipus_habitatge>Pis</tipus_habitatge>
+			<contracte>Lloguer</contracte>
+			<preu>300€</preu>
+		</pis>
+
+		<pis id='4'>
+			<adreça>Mestral 2, 07687, S'illot</adreça>
+			<tipus_habitatge>Pis</tipus_habitatge>
+			<contracte>Lloguer</contracte>
+			<preu>420€</preu>
+		</pis>
+
+		<pis id='5'>
+			<adreça>Gregal 17, 07687, S'illot</adreça>
+			<tipus_habitatge>Pis</tipus_habitatge>
+			<contracte>Venda</contracte>
+			<preu>100.200€</preu>
+		</pis>
+
+	</habitatges>
+</immobiliaria>

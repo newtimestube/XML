@@ -1,0 +1,7 @@
+<!ELEMENT recepte (ingredient+)>
+<!ELEMENT ingredient (nomingredient,quantitat,obs?)>
+<!ELEMENT nomingredient (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>
+<!ELEMENT obs (#PCDATA)>
+<!ATTLIST recepte nom CDATA #REQUIRED tipus (ENTRANT|PRINCIPAL|POSTRE) #IMPLIED>
+<!ATTLIST quantitat mesura CDATA #REQUIRED>

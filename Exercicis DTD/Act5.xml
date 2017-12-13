@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Jocs_Olimpics SYSTEM "Act5.dtd">
+
+<Jocs_Olimpics> 
+    <Olimpiada Any="2012">
+        <Pais Nom="Regne Unit">
+            <Ciutat>Londres</Ciutat>
+        </Pais>
+        <Dates>
+            <Inici>27 de juliol de 2012</Inici>
+            <Fi>12 d'agost de 2012</Fi>
+        </Dates>
+        <Caracteristiques Nom_oficial="Jocs de la XXX Olimpiada">
+            <Inauguracio>Elisabet II</Inauguracio>
+            <Participants Comites="204" Atletes ="10.820"/>
+        </Caracteristiques>
+    </Olimpiada>
+</Jocs_Olimpics>
+
+
+
+
+

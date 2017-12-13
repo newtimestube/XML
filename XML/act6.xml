@@ -1,0 +1,23 @@
+<futbol>
+	<jugador id="1"> 
+		<nom>Cristiano Ronaldo</nom>
+		<data_naixament>05/02/1985</data_naixament>
+		<equip>Real Madrid</equip>
+		<rendiment>
+			<minuts_jugats>560</minuts_jugats>
+			<gols_fets>24</gols_fets>
+			<convocat>Si</convocat>
+		</rendiment>
+	</jugador>
+	
+	<jugador id="25"> 
+		<nom>Messi</nom>
+		<data_naixament>02/07/1990</data_naixament>
+		<equip>FC Barcelona</equip>
+		<rendiment>
+			<minuts_jugats>430</minuts_jugats>
+			<gols_fets>18</gols_fets>
+			<convocat>Si</convocat>
+		</rendiment>
+	</jugador>
+</futbol>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="informatica">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ordinador" maxOccurs="unbounded">
+                    <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="titol" type="xs:string"/>
+                                <xs:element name="placa_base">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="peces" type="xs:string" maxOccurs="unbounded"/>            
+                                        </xs:sequence>                                  
+                                    </xs:complexType>
+                                </xs:element> 
+                            </xs:sequence>
+                            <xs:attribute name="color_de_capsa" use="required" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

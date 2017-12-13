@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE albara SYSTEM "act2.dtd">
+
+<albara>
+    <numero>8</numero>
+    <data>2014-03-14</data>
+    <client id="1">
+        <nom>Pere Garcia</nom>
+        <poblacio>Inca</poblacio>        
+    </client>
+    <articles>
+        <compra>
+            <article codi="9">
+                <descripcio>Albali gran reserva. Bodegas Albali 75cl</descripcio>
+                <ampolla/>
+                <preu>4.98</preu>
+            </article>
+            <quantitat>3</quantitat>
+        </compra>                
+        <compra>
+            <article codi="12">
+                <descripcio>Vi a granel</descripcio>
+                <ampolla/>
+                <preu>0.10</preu>
+            </article>
+            <quantitat>10</quantitat>
+        </compra>
+        <compra>
+            <article codi="58">
+                <descripcio>Vi Ribera de Duero. Valpicia 75 cl</descripcio>
+                <ampolla/>
+                <preu>5.49</preu>
+            </article>
+            <quantitat>1</quantitat>
+        </compra>                        
+    </articles>    
+</albara>
+

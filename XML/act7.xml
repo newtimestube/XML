@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<torneig_sis_nacions>
+	<ronda id="1">
+		<partit partitID="1">
+			<equip>WALES vs SCOTLAND</equip>
+			<resultat>2:3</resultat>
+		</partit>
+		<partit partitID="2">
+			<equip>FRANCE vs IRELAND</equip>
+			<resultat>6:3</resultat>
+		</partit>
+		<partit partitID="3">
+			<equip>ITALY VS ENGLAND</equip>
+			<resultat>1:0</resultat>
+		</partit>
+	</ronda>
+
+	<ronda id="2">
+		<partit partitID="4">
+			<equip>IRELAND vs ITALY</equip>
+			<resultat>4:0</resultat>
+		</partit>
+		<partit partitID="5">
+			<equip>ENGLAND vs WALES</equip>
+			<resultat>2:2</resultat>
+		</partit>
+		<partit partitID="6">
+			<equip>SCOTLAND vs FRANCE</equip>
+			<resultat>1:1</resultat>
+		</partit>
+	</ronda>
+
+	<ronda id="3">
+		<partit partitID="7">
+			<equip>FRANCE vs ITALY</equip>
+			<resultat>5:3</resultat>
+		</partit>
+		<partit partitID="8">
+			<equip>IRELAND vs WALES</equip>
+			<resultat>7:1</resultat>
+		</partit>
+		<partit partitID="9">
+			<equip>SCOTLAND vs ENGLAND</equip>
+			<resultat>1:2</resultat>
+		</partit>
+	</ronda>
+</torneig_sis_nacions>

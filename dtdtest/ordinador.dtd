@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT informatica (ordinador+)>
+<!ELEMENT ordinador (titol, placa_base)>
+<!ATTLIST ordinador color_de_capsa CDATA #IMPLIED>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT placa_base (peces+)>
+<!ELEMENT peces (#PCDATA)>

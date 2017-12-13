@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT CatalegPelicules (Pelicula+)>
+<!ELEMENT Pelicula (Titol, Durada, Genere, Actors, Any, Director, Format?)>
+<!ELEMENT Titol (#PCDATA)>
+<!ELEMENT Durada (#PCDATA)>
+<!ELEMENT Genere (#PCDATA)>
+<!ELEMENT Actors (Actor+)>
+<!ELEMENT Actor (#PCDATA)>
+<!ELEMENT Any (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Format (#PCDATA)>
+
+
+

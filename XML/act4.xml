@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ATLES>
+	<PAIS Domini="li" CodiTelefon="423">Liechtenstein
+		<POBLACIO>35000</POBLACIO>
+		<KM2>160</KM2>
+		<MONEDA>Franc suís</MONEDA>
+		<VEI Direccio="E">Austria</VEI>
+		<VEI Direccio="O">Suïssa</VEI>
+	</PAIS>
+</ATLES>

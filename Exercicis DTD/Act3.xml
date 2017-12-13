@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recepte SYSTEM "receptes.dtd">
+
+<recepte nom="Crepes">
+    <ingredient>
+        <nomingredient>ou</nomingredient>
+        <quantitat mesura="unitats">2</quantitat>
+        <obs>Ninguna</obs>
+    </ingredient>
+    <ingredient>
+        <nomingredient>farina</nomingredient>
+        <quantitat mesura="grams">250g</quantitat>
+        <obs>Utilitzar la de la empresa maggie</obs>
+    </ingredient>
+    <ingredient>
+        <nomingredient>llet</nomingredient>
+        <quantitat mesura="ml">100ml</quantitat>
+        <obs>Ninguna</obs>
+    </ingredient>
+</recepte>
+ 

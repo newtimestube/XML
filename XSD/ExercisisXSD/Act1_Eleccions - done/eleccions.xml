@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eleccions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:noNamespaceSchemaLocation="testEleccions.xsd"> 
+    <descripcio>Presidencials 2010</descripcio>
+    <dades>
+        <data>2010-11-29</data>
+        <cens>500</cens>
+        <abstencio>450</abstencio>
+        <blancs>12</blancs>
+    </dades>
+    <resultats>
+        <partit>
+            <nom>Partit Vermell</nom>
+            <vots>8</vots>
+        </partit>
+        <partit>
+            <nom>Informatics Units</nom>
+            <vots>14</vots>
+        </partit>
+        <partit>
+            <nom>Coordinadora per un planeta verd</nom>
+            <vots>5</vots>
+        </partit>
+        <partit>
+            <nom>Partit dels alts</nom>
+            <vots>5</vots>
+        </partit>
+        <partit>
+            <nom>Unió taronja</nom>
+            <vots>6</vots>
+        </partit>        
+    </resultats>    
+</eleccions>

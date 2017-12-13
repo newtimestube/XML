@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personal SYSTEM "empresa.dtd">
+
+<personal>
+
+	<persona id="A1" note="first" contr="true" salary="2000">
+		<dades>
+			<nom>Philipp</nom>
+			<cognom>Vujic</cognom> 
+		</dades>
+		<email>newtimestube@gmail.com</email>
+		<url href="http://"/>
+		<relacio director="A1" treballador="A1"/>
+	</persona>
+
+	<persona id="A4" note="fourth" contr="false" salary="5000">
+		<dades>
+			<nom>Juan</nom>
+			<cognom>Fornes</cognom> 
+		</dades>
+		<email>jfornes_1999@gmail.com</email>
+		<url href="http://"/>
+		<relacio director="A1" treballador="A1"/>
+	</persona>
+
+	<persona id="A3" note="third" contr="true" salary="4200">
+		<dades>
+			<nom>Miquel</nom>
+			<cognom>Rosello</cognom> 
+		</dades>
+		<email>mrosello@gmail.com</email>
+		<url href="http://"/>
+		<relacio director="A1" treballador="A1"/>
+	</persona>
+
+	<persona id="A2" note="second" contr="true" salary="200">
+		<dades>
+			<nom>Sergio</nom>
+			<cognom>Gonzalez</cognom> 
+		</dades>
+		<email>sgonzalez@gmail.com</email>
+		<url href="http://"/>
+		<relacio director="A1" treballador="A1"/>
+	</persona>
+
+ </personal>

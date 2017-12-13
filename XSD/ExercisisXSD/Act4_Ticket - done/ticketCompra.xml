@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="ticketCompra.xsd"> 	
+        <data>
+		<dia>12</dia>
+		<mes>11</mes>
+		<any>2010</any>
+	</data>
+	<client>
+		<nom>Joan</nom>
+		<id>14865659</id>
+	</client>
+	<productes>
+		<producte>
+			<codi>16754</codi>
+			<nom>Patates</nom>
+			<quantitat>1</quantitat>
+			<preu>2.25</preu>
+			<descompte>10</descompte>
+		</producte>
+		<producte>
+			<codi>33864</codi>
+			<nom>LLet AGAMA</nom>
+			<quantitat>5</quantitat>
+			<preu>1.75</preu>
+			<descompte>5</descompte>
+			<promocio/>
+		</producte>
+		<producte>
+			<codi>97454</codi>
+			<nom>Paper Cuina</nom>
+			<quantitat>3</quantitat>
+			<preu>1.5</preu>
+			<descompte>0</descompte>
+		</producte>
+		<producte>
+			<codi>674545</codi>
+			<nom>Sardines</nom>
+			<quantitat>1</quantitat>
+			<preu>2.95</preu>
+			<descompte>0</descompte>
+		</producte>
+			<producte>
+			<codi>674545</codi>
+			<nom>Sardines</nom>
+			<quantitat>1</quantitat>
+			<preu>2.95</preu>
+			<descompte>0</descompte>
+		</producte>
+				<producte>
+			<codi>674545</codi>
+			<nom>Sardines</nom>
+			<quantitat>1</quantitat>
+			<preu>2.95</preu>
+			<descompte>0</descompte>
+		</producte>
+	</productes>
+</ticket>
+

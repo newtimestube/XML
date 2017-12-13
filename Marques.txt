@@ -1,0 +1,43 @@
+﻿
+Vocabulari: Informatica, ordinador, titol, placa base,  processador, targeta grafica, font de alimentacio, ram.
+Regles: Ha de començar amb informatica i acabar amb informatica. Hi pot haver mes de un ordinador pero no pot haver un ordinador a dins de un altre ordinador.
+Cada ordinador ha de tenir un placa base on estarien les peçes damunt que poden ser com processador, targeta grafica, font de alimentacio, ram, etc.
+En acabar amb totes les peçes s'acaba amb placa base.
+
+<Informatica>
+	<ordinador> <titol> 1r ordinador </titol>
+		<placa base>
+			<peçes>Processador Intel</peçes>
+			<peçes>Targeta Grafica Nvidia</peçes>
+			<peçes>Font de alimentacio Tacens</peçes>
+			<peçes>Ram 8GB</peçes>
+		</placa base>
+	</ordinador>
+	
+	<ordinador> <titol> 2n ordinador </titol>
+		<placa base>
+			<peçes>Processador AMD</peçes>
+			<peçes>Targeta Grafica AMD</peçes>
+			<peçes>Font de alimentacio NOX</peçes>
+			<peçes>Ram 16GB</peçes>
+		</placa base>
+	</ordinador>
+	
+	<ordinador> <titol> 3r ordinador </titol>
+		<placa base>
+			<peçes>Processador Intel</peçes>
+			<peçes>Targeta Grafica AMD</peçes>
+			<peçes>Font de alimentacio Tacens</peçes>
+			<peçes>Ram 4GB</peçes>
+		</placa base>
+	</ordinador>
+	
+	<ordinador> <titol> 4t ordinador </titol>
+		<placa base>
+			<peçes>Processador Intel</peçes>
+			<peçes>Targeta Grafica Intel (Integrada)</peçes>
+			<peçes>Font de alimentacio Corsair</peçes>
+			<peçes>Ram 32GB</peçes>
+		</placa base>
+	</ordinador>
+</informatica>
